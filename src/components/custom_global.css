@@ -1,0 +1,82 @@
+.login-signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  margin: 0;
+}
+.body{
+  height: 100%;
+}
+.login-signup-box{
+  border:solid;
+  padding: 2em 3em;
+
+}
+html, body, #app{
+  height:100%;
+}
+#app{
+  position:relative;
+  min-height: 100%;
+  margin: 0;
+}
+#footer-force{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.album-cover {
+  width: 100px;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  body {
+    zoom: 200%;
+  }
+
+  #company-name-nav {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  body {
+    zoom: 200%;
+  }
+
+  #company-name-nav {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  body {
+    zoom: 200%;
+  }
+
+  #company-name-nav {
+    font-size: 1.25rem;
+  }
+
+  .album-cover {
+    width: 60px;
+  }
+}
+
+.columns {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar-item:not(.no-bg-hl):hover{
+  background-color: #00b89c!important;
+}

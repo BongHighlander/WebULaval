@@ -1,0 +1,46 @@
+.play {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid black;
+  margin: 8px auto 8px auto;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: all 0.3s;
+  left: 8px;
+}
+
+.pistes-table-row-content-id {
+  padding-left: 15px
+}
+
+.pistes-table-rosw:hover {
+  border-width: thick;
+}
+
+.play-button {
+  background: none !important;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.content table tr:hover {
+  background-color: white !important;
+}
+
+.drop-item-present {
+  background-color: #369ecc;
+}
+
+.drop-button {
+  cursor: pointer;
+}
+
+.playlist-name:hover {
+  cursor: pointer;
+}

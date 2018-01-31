@@ -1,0 +1,8 @@
+.album-list div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.album-list div:hover {
+  background-color: #00d1b2;
+}
